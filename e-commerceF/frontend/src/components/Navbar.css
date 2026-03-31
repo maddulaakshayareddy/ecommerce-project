@@ -1,0 +1,89 @@
+/* TOP BAR */
+.top-bar {
+    background: #2b2b2b;
+    color: #ffb347;
+    text-align: center;
+    padding: 6px;
+    font-size: 14px;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 30px;
+    background: linear-gradient(to right, #0d2b4e, #1f4e79);
+    color: white;
+}
+
+/* LOGO */
+.logo {
+    color: #ff7a18;
+    font-size: 22px;
+}
+
+/* SEARCH */
+.search-box {
+    display: flex;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 40%;
+}
+
+.search-box input {
+    border: none;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+}
+
+.search-box button {
+    background: orange;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+/* RIGHT SIDE */
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-right a {
+    color: white;
+    text-decoration: none;
+}
+
+/* BUTTONS */
+.btn-outline {
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 6px;
+}
+
+.btn-fill {
+    background: orange;
+    padding: 6px 12px;
+    border-radius: 6px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.user {
+    font-weight: bold;
+}
+.nav-right a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-right a:hover {
+  border-bottom: 2px solid #fff;
+}

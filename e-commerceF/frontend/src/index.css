@@ -1,0 +1,30 @@
+/* ===== GLOBAL STYLES ===== */
+
+body{
+  background:#f4f6f8;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin:0;
+}
+
+h2{
+  color:#0b2a4a;
+}
+
+h3{
+  color:#0b2a4a;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* ===== ADD BELOW THIS ===== */
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  cursor: pointer;
+}
