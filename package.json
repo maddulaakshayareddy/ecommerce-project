@@ -1,0 +1,9 @@
+{
+  "name": "ecommerce-project",
+  "version": "1.0.0",
+  "scripts": {
+    "backend": "cd ecommerce && mvnw.cmd spring-boot:run",
+    "frontend": "cd e-commerceF/frontend && npm start",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  }
+}
