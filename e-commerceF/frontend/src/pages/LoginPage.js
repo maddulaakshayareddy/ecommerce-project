@@ -1,5 +1,5 @@
 import { useState } from "react";
-import axios from "axios";
+import api from "../api";
 import { useNavigate } from "react-router-dom";
 import "./Login.css";
 
@@ -22,10 +22,7 @@ function LoginPage() {
   const submit = async () => {
     try {
 
-      const res = await axios.post(
-        "http://localhost:8080/login",
-        data
-      );
+      const res = await api.post("/login", data);
 
       if (res.data) {
 
